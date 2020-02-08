@@ -2,6 +2,6 @@
 Horas = int(input('Quantas horas? '))
 minutos = int(input('Quantos minutos? '))
 
-Total_Minutos = (Horas * 60) + minutos
+Total_Minutos = Horas * 60 + minutos
 
 print('O total em minutos é: {}' .format(Total_Minutos))

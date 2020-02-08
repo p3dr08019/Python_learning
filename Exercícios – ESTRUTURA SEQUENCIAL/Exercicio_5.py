@@ -5,6 +5,6 @@ soma = 0
 while(numero != 0):
     soma += numero%10
     numero = int(numero/ 10)
-
+    
 print('A soma dos algarismos e igual a: {}'.format(soma))
 

@@ -1,3 +1,1 @@
-nomes = ['Pedro', 'João', 'Leticia']
-for n in nomes:
-     print(n)
+# Leia 3 números, calcule e escreva a soma dos 2 primeiros e a diferença entre os 2 últimos.
