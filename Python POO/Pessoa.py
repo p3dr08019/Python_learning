@@ -1,2 +1,20 @@
 class Pessoa:
-    pass
+    def __init__(self, nome, idade, comendo = False, falando = False):
+        self.nome = nome
+        self.iadade = idade
+        self.comendo = comendo
+        self.falando = falando
+    
+    def comer(self, alimento):
+        if self.comendo:
+            print('{} já está comendo'.format(self.nome))
+            return
+        print('{} esta comendo {}'.format(self.nome, alimento))
+        self.comendo = True
+    
+    def parar_comer(self, alimento ):
+        if self.comendo == True:
+            print('{} parou de comer.'.format(self.nome))
+        else:
+            print('{} nao está comendo.'.format(self.nome))
+        self.comendo = False
