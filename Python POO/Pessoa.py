@@ -1,7 +1,9 @@
 class Pessoa:
-    def __init__(self, nome, idade, comendo = False, falando = False):
+    
+    def __init__(self, nome, idade, cor, comendo = False, falando = False):
         self.nome = nome
-        self.iadade = idade
+        self.idade = idade
+        self.cor = cor
         self.comendo = comendo
         self.falando = falando
     

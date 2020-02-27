@@ -1,10 +1,7 @@
-from pessoa import Pessoa
+from Pessoa import Pessoa
+from datetime import date
 
-p1 = Pessoa('pedrão', 17)
+p1 = Pessoa('joao', 23, 'negro')
 
-p1.comer('maçã')
-p1.parar_comer('maçã')
-p1.comer('maçã')
-p1.comer('maçã')
-p1.parar_comer('')
-p1.parar_comer('')
+print(p1.cor)
+print(p1.nome)
